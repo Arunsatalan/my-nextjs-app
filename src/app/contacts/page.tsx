@@ -1,8 +1,8 @@
 import React from 'react'
-
+import stylesheet from './page.module.css'
 const contacts = () => {
   return (
-    <div>contacts</div>
+    <div className={stylesheet.contacts}>contacts</div>
   )
 }
 
